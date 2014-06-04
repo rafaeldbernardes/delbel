@@ -1,12 +1,39 @@
+header {
+	height: 200px;
+}
+
+header img{
+	width: 200px;
+	heigth: 200px;
+	position: absolute;
+}
+
+header .middle {
+	margin-left: 250px;
+}
+
+header .middle  input{
+	margin: 20px 0px 0px 20px;
+}
+
+header ul li {
+	display: inline;
+	margin-left: 10px;
+}
+
 body {
 	color: #333333;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+.checkbox label input{
+	margin-right: 10px;
+}
+
 .container {
 	margin: 0 auto;
 	position: relative;
-	width: 750px;
+	width: 850px;
 }
 
 .menu-principal h3{
@@ -29,10 +56,6 @@ body {
 	right: 0;
 }
 
-.menu-marmita .line{
-	display: inline;
-}
-
 .menu-marmita .line label{
 	margin-left: -60px;
 }
@@ -43,7 +66,7 @@ body {
 }
 
 .inputPesquisar {
-	margin: 8px 75px;
+	margin: 10px 0px 3px 75px;
 	width: 300px;
 }
 
